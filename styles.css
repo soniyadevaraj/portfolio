@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Soniya D — Data Analyst</title>
+<meta name="description" content="Soniya D — Data Analyst. Revenue intelligence, churn analytics, and supply chain dashboards with embedded AI." />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Sora:wght@500;600;700;800&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<!-- ============ NAV ============ -->
+<nav class="nav" id="nav">
+  <a href="#top" class="nav-mark">SD</a>
+  <div class="nav-links">
+    <a href="#work">Work</a>
+    <a href="#about">About</a>
+    <a href="#skills">Skills</a>
+    <a href="#contact">Contact</a>
+  </div>
+  <a href="#contact" class="nav-cta">Get in touch</a>
+</nav>
+
+<!-- ============ HERO ============ -->
+<header class="hero" id="top">
+  <div class="hero-inner">
+    <div class="hero-text">
+      <p class="eyebrow">Data Analyst · 3 yrs experience</p>
+      <h1 class="hero-title">
+        I turn raw data into<br/>
+        <span class="hero-accent">decisions people act on.</span>
+      </h1>
+      <p class="hero-sub">
+        I build analytics dashboards that don't just display numbers — they forecast, flag anomalies, and answer questions in plain English. Three live products below, all running real interactive logic, not screenshots.
+      </p>
+      <div class="hero-actions">
+        <a href="#work" class="btn-primary">View live dashboards</a>
+        <a href="https://github.com/soniyadevaraj" target="_blank" rel="noopener" class="btn-secondary">GitHub profile ↗</a>
+      </div>
+    </div>
+    <div class="hero-photo-wrap">
+      <div class="hero-photo-ring">
+        <img src="img/profile.jpg" alt="Soniya D" class="hero-photo" />
+      </div>
+      <span class="hero-photo-tag">● Open to work</span>
+    </div>
+  </div>
+
+  <!-- Signature element: metrics ticker -->
+  <div class="metrics-ticker">
+    <div class="ticker-track">
+      <span>3 production dashboards shipped</span>
+      <span>40+ SKU supply chain model</span>
+      <span>500-record churn simulation</span>
+      <span>Zero external chart dependencies</span>
+      <span>AI insight layer in every build</span>
+      <span>3 production dashboards shipped</span>
+      <span>40+ SKU supply chain model</span>
+      <span>500-record churn simulation</span>
+      <span>Zero external chart dependencies</span>
+      <span>AI insight layer in every build</span>
+    </div>
+  </div>
+</header>
+
+<!-- ============ ABOUT ============ -->
+<section class="about" id="about">
+  <div class="section-head">
+    <span class="section-tag">01 · About</span>
+    <h2>Analyst first, builder by necessity.</h2>
+  </div>
+  <div class="about-grid">
+    <p class="about-lead">
+      Three years into a data analyst career, I kept hitting the same wall: static dashboards tell you what happened, but not what to do next. So I started building ones that do — forecasting layers, anomaly detection, and an embedded AI layer you can actually ask questions to.
+    </p>
+    <div class="about-stats">
+      <div class="stat">
+        <span class="stat-num">3+</span>
+        <span class="stat-label">Years in analytics</span>
+      </div>
+      <div class="stat">
+        <span class="stat-num">3</span>
+        <span class="stat-label">End-to-end dashboards shipped</span>
+      </div>
+      <div class="stat">
+        <span class="stat-num">0</span>
+        <span class="stat-label">Build steps required to run any of them</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ PROJECTS ============ -->
+<section class="work" id="work">
+  <div class="section-head">
+    <span class="section-tag">02 · Selected Work</span>
+    <h2>Click any project to open the live dashboard.</h2>
+  </div>
+
+  <div class="project-grid">
+
+    <!-- PROJECT 1: Revenue -->
+    <a class="project-card" href="https://soniyadevaraj.github.io/revenue/" target="_blank" rel="noopener">
+      <div class="project-visual" data-visual="revenue">
+        <svg viewBox="0 0 300 140" class="spark">
+          <polyline points="0,100 40,85 80,90 120,60 160,68 200,35 240,42 300,15" />
+        </svg>
+      </div>
+      <div class="project-body">
+        <span class="project-kicker">Revenue Intelligence</span>
+        <h3>Revenue Intelligence Command Center</h3>
+        <p>Forecasting dashboard with confidence-banded AI projections, anomaly detection, win/loss heatmaps, and a rule-based analyst chatbot grounded in live filtered data.</p>
+        <div class="project-tags">
+          <span>Forecasting</span>
+          <span>Anomaly Detection</span>
+          <span>AI Chat</span>
+        </div>
+        <div class="project-links">
+          <span class="project-link-primary">Open live dashboard ↗</span>
+          <button class="project-link-secondary" data-repo="https://github.com/soniyadevaraj/revenue">View code</button>
+        </div>
+      </div>
+    </a>
+
+    <!-- PROJECT 2: Churn -->
+    <a class="project-card" href="https://soniyadevaraj.github.io/Churniq-pro/" target="_blank" rel="noopener">
+      <div class="project-visual" data-visual="churn">
+        <svg viewBox="0 0 140 140" class="donut">
+          <circle cx="70" cy="70" r="52" class="donut-track"/>
+          <circle cx="70" cy="70" r="52" class="donut-fill"/>
+        </svg>
+      </div>
+      <div class="project-body">
+        <span class="project-kicker">Churn Analytics</span>
+        <h3>ChurnIQ Pro — Telecom Intelligence Platform</h3>
+        <p>Customer churn risk modeling across 500 simulated accounts, with segment filtering, SHAP-style feature importance, and 4 specialized AI agents for retention strategy.</p>
+        <div class="project-tags">
+          <span>Churn Modeling</span>
+          <span>Segmentation</span>
+          <span>4 AI Agents</span>
+        </div>
+        <div class="project-links">
+          <span class="project-link-primary">Open live dashboard ↗</span>
+          <button class="project-link-secondary" data-repo="https://github.com/soniyadevaraj/Churniq-pro">View code</button>
+        </div>
+      </div>
+    </a>
+
+    <!-- PROJECT 3: Supply -->
+    <a class="project-card" href="https://soniyadevaraj.github.io/SupplyIQ-Pro/" target="_blank" rel="noopener">
+      <div class="project-visual" data-visual="supply">
+        <svg viewBox="0 0 300 140" class="bars">
+          <rect x="10" y="60" width="22" height="60"/>
+          <rect x="50" y="40" width="22" height="80"/>
+          <rect x="90" y="75" width="22" height="45"/>
+          <rect x="130" y="20" width="22" height="100"/>
+          <rect x="170" y="55" width="22" height="65"/>
+          <rect x="210" y="35" width="22" height="85"/>
+          <rect x="250" y="65" width="22" height="55"/>
+        </svg>
+      </div>
+      <div class="project-body">
+        <span class="project-kicker">Supply Chain</span>
+        <h3>SupplyIQ Pro — FMCG Intelligence</h3>
+        <p>40-SKU inventory operations dashboard covering stockout risk scoring, supplier reliability, ABC analysis, demand forecasting, and a prioritized restock planner.</p>
+        <div class="project-tags">
+          <span>Inventory Ops</span>
+          <span>Risk Scoring</span>
+          <span>Demand Forecast</span>
+        </div>
+        <div class="project-links">
+          <span class="project-link-primary">Open live dashboard ↗</span>
+          <button class="project-link-secondary" data-repo="https://github.com/soniyadevaraj/SupplyIQ-Pro">View code</button>
+        </div>
+      </div>
+    </a>
+
+  </div>
+
+  <p class="work-note">
+    The AI chat features in ChurnIQ Pro and SupplyIQ Pro require a personal Anthropic API key, entered client-side — by design, no key is ever hardcoded into the public code. All charts, KPIs, and filters work fully without one.
+  </p>
+</section>
+
+<!-- ============ SKILLS ============ -->
+<section class="skills" id="skills">
+  <div class="section-head">
+    <span class="section-tag">03 · Toolkit</span>
+    <h2>What I actually use to get this done.</h2>
+  </div>
+  <div class="skills-grid">
+    <div class="skill-group">
+      <h4>Analysis &amp; Modeling</h4>
+      <ul>
+        <li>Forecasting &amp; trend analysis</li>
+        <li>Anomaly &amp; risk detection</li>
+        <li>Cohort &amp; segmentation analysis</li>
+        <li>SQL &amp; data wrangling</li>
+      </ul>
+    </div>
+    <div class="skill-group">
+      <h4>Visualization</h4>
+      <ul>
+        <li>Dashboard design (Power BI / Tableau workflows)</li>
+        <li>Custom SVG &amp; Chart.js builds</li>
+        <li>KPI &amp; executive reporting</li>
+        <li>Interactive data storytelling</li>
+      </ul>
+    </div>
+    <div class="skill-group">
+      <h4>Engineering</h4>
+      <ul>
+        <li>HTML / CSS / JavaScript</li>
+        <li>Excel / Google Sheets automation</li>
+        <li>Python for data analysis</li>
+        <li>AI-assisted analytics tooling</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<!-- ============ CONTACT ============ -->
+<section class="contact" id="contact">
+  <div class="contact-inner">
+    <span class="section-tag">04 · Contact</span>
+    <h2>Let's talk about your data.</h2>
+    <p>Open to data analyst roles where dashboards are expected to do more than display numbers.</p>
+    <div class="contact-grid">
+      <a href="mailto:soniyadevaraj2002@gmail.com" class="contact-card contact-card--mail">
+        <span class="contact-icon">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16v16H4z" opacity="0"/><path d="M22 6l-10 7L2 6"/><rect x="2" y="4" width="20" height="16" rx="2"/></svg>
+        </span>
+        <span class="contact-label">Email</span>
+        <span class="contact-value">soniyadevaraj2002@gmail.com</span>
+      </a>
+      <a href="https://www.linkedin.com/in/soniya-d-069225244" target="_blank" rel="noopener" class="contact-card contact-card--linkedin">
+        <span class="contact-icon">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor"><path d="M20.45 20.45h-3.56v-5.57c0-1.33-.02-3.03-1.85-3.03-1.85 0-2.14 1.45-2.14 2.94v5.66H9.34V9h3.41v1.56h.05c.48-.9 1.64-1.85 3.38-1.85 3.6 0 4.27 2.37 4.27 5.46v6.28zM5.34 7.43a2.07 2.07 0 1 1 0-4.14 2.07 2.07 0 0 1 0 4.14zM7.12 20.45H3.56V9h3.56v11.45z"/></svg>
+        </span>
+        <span class="contact-label">LinkedIn</span>
+        <span class="contact-value">soniya-d-069225244 ↗</span>
+      </a>
+      <a href="https://github.com/soniyadevaraj" target="_blank" rel="noopener" class="contact-card contact-card--github">
+        <span class="contact-icon">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C6.48 2 2 6.58 2 12.25c0 4.5 2.87 8.32 6.84 9.67.5.1.68-.22.68-.49 0-.24-.01-1.04-.01-1.89-2.78.6-3.37-1.34-3.37-1.34-.45-1.16-1.11-1.47-1.11-1.47-.9-.62.07-.61.07-.61 1 .07 1.53 1.04 1.53 1.04.89 1.53 2.34 1.09 2.91.83.09-.65.34-1.09.62-1.34-2.22-.25-4.55-1.12-4.55-4.98 0-1.1.39-2 1.03-2.71-.1-.25-.45-1.27.1-2.64 0 0 .84-.27 2.75 1.03a9.4 9.4 0 0 1 5 0c1.91-1.3 2.75-1.03 2.75-1.03.55 1.37.2 2.39.1 2.64.64.71 1.03 1.61 1.03 2.71 0 3.87-2.34 4.73-4.57 4.98.36.31.68.93.68 1.87 0 1.35-.01 2.44-.01 2.77 0 .27.18.59.69.49A10.02 10.02 0 0 0 22 12.25C22 6.58 17.52 2 12 2z"/></svg>
+        </span>
+        <span class="contact-label">GitHub</span>
+        <span class="contact-value">soniyadevaraj ↗</span>
+      </a>
+    </div>
+  </div>
+</section>
+
+<footer class="footer">
+  <span>Soniya D · Data Analyst</span>
+  <span>Built with vanilla HTML / CSS / JS — no framework, by choice.</span>
+</footer>
+
+<script src="app.js"></script>
+</body>
+</html>
